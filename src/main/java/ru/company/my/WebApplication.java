@@ -11,11 +11,6 @@ import org.springframework.boot.context.web.SpringBootServletInitializer;
 @SpringBootApplication
 public class WebApplication {
 
-//    @Override
-//    public SpringApplicationBuilder configure(SpringApplicationBuilder springApplicationBuilder) {
-//        return springApplicationBuilder.sources(WebApplication.class);
-//    }
-
     public static void main(String[] args) {
         SpringApplication.run(WebApplication.class, args);
     }
